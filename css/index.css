@@ -20,11 +20,15 @@ body{
 
  
 }
-
+.slider{
+    padding: 1rem;
+    /* background-color: aqua; */
+}
 
 .text{
     display: flex;
     justify-content: center;
     align-items: center;
     font-size: 2rem;
+    padding: 1rem;
 }
