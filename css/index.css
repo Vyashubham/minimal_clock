@@ -1,0 +1,24 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 95vh;
+
+    background-color: #101010;
+    color: #e5e5e5;
+    font-family: 'Times New Roman', Times, serif;
+    
+
+}
+.clock{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: yellow; */
+    font-size: 4.5rem;
+ 
+}
+
+.text{
+    font-size: 2rem;
+}
