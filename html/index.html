@@ -4,6 +4,10 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fira+Mono:wght@400;500;700&family=Roboto:wght@100;400;500&display=swap" rel="stylesheet">
+
     <link rel="stylesheet" href="../css/index.css">
 
         
@@ -11,9 +15,16 @@
 <body onLoad="startTime()">
     <div class="main_section">
         <div class="clock" id="clock"></div>
-        <div class="slider">-----------------------------------------------------------------------------------</div>
-        <div class="text">“No, you don’t have to repeat yourself. I was ignoring you the first time.”</div>
+        <div class="slider">
+            <svg width="1000" height="1">
+                <line x1="0" y1="0" x2="1000" y2="0" style="stroke:rgb(223, 219, 219);stroke-width:3" />
+                Sorry, your browser does not support inline SVG.
+              </svg>
+        </div>
+        <div class="text">“No, you don’t have to repeat yourself. I was ignoring you the first time.”</div>   
     </div>
+    <div class="bg_graphic"></div>
+    
     
 </body>
 <script>
