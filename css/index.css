@@ -5,7 +5,7 @@ body{
     align-items: center;
     height: 95vh;
 
-    background-color: #101010;
+    background-color: #02051d;
     color: #e5e5e5;
     /* font-family: 'Times New Roman', Times, serif; */
     font-family: 'Fira Mono', monospace;
@@ -88,7 +88,7 @@ body{
 }
 
 .tools_wrapper > p{
-    border: .2rem solid #101010;
+    border: .2rem solid #02051d;
     padding: .5rem;
     
 }
@@ -96,13 +96,11 @@ body{
 .tools_wrapper > p:hover{
     border: .2rem solid white;
     padding: .5rem;
-    transition: .1s;
+    transition: .3s;
     cursor: pointer;
     border-radius: 0px;
-/* background: #f4f5f5; */
-box-shadow:  7px 7px 14px #d2d3d3,
-             -7px -7px 14px #ffffff;
+
 
 }
 
-/* 3rd party code */
+    
