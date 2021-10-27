@@ -1,14 +1,25 @@
 body{
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     height: 95vh;
 
     background-color: #101010;
     color: #e5e5e5;
-    font-family: 'Times New Roman', Times, serif;
+    /* font-family: 'Times New Roman', Times, serif; */
+    font-family: 'Fira Mono', monospace;
+    /* background-image: url("../media/Curve\ Line.svg");
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: contain; */
+
     
 
+}
+
+.main_section{
+    /* background-color: teal; */
 }
 .clock{
     display: flex;
@@ -16,11 +27,14 @@ body{
     align-items: center;
     padding: 1rem;
     /* background-color: yellow; */
-    font-size: 4.5rem;
+    font-size: 3.2rem;
 
  
 }
 .slider{
+    display: flex;
+    justify-content: center;
+    align-items: center;
     padding: 1rem;
     /* background-color: aqua; */
 }
@@ -29,6 +43,20 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 2rem;
+    font-size: 1rem;
     padding: 1rem;
+    
+}
+
+.bg_graphic{
+    height: 40vh;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    /* background-color: orange; */
+    background-image: url("../media/Curve\ Line.svg");
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: cover;
+
 }
