@@ -14,11 +14,17 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
+    padding: 1rem;
     /* background-color: yellow; */
     font-size: 4.5rem;
+
  
 }
 
+
 .text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
     font-size: 2rem;
 }
