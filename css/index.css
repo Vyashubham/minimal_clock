@@ -31,6 +31,7 @@ body{
 
  
 }
+
 .slider{
     display: flex;
     justify-content: center;
@@ -48,10 +49,21 @@ body{
     
 }
 
-.bg_graphic{
-    height: 40vh;
+.lower_section{
+    display: flex;
+    justify-content: space-between;
     width: 100%;
+    min-height: 40vh;
     position: fixed;
+    bottom: 0;
+    /* background-color: cornflowerblue; */
+}
+
+ .bg_graphic{
+    height: 40vh;
+    width: 80%;
+    position: fixed;
+    right: 0;
     bottom: 0;
     /* background-color: orange; */
     background-image: url("../media/Curve\ Line.svg");
@@ -59,4 +71,38 @@ body{
     background-repeat: no-repeat;
     background-size: cover;
 
+} 
+
+
+.tools_wrapper{
+    width: 20%;
+    display: flex;
+    justify-content: left;
+    align-items: end;
+    padding: 1rem 2rem;
+
+    /* background-color: pink; */
+    
+    font-size: .8rem ;
+    
 }
+
+.tools_wrapper > p{
+    border: .2rem solid #101010;
+    padding: .5rem;
+    
+}
+
+.tools_wrapper > p:hover{
+    border: .2rem solid white;
+    padding: .5rem;
+    transition: .1s;
+    cursor: pointer;
+    border-radius: 0px;
+/* background: #f4f5f5; */
+box-shadow:  7px 7px 14px #d2d3d3,
+             -7px -7px 14px #ffffff;
+
+}
+
+/* 3rd party code */
