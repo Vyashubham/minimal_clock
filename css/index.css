@@ -5,7 +5,7 @@ body{
     align-items: center;
     height: 95vh;
 
-    background-color: #101010;
+    background-color: #070b0f;
     color: #e5e5e5;
     /* font-family: 'Times New Roman', Times, serif; */
     font-family: 'Fira Mono', monospace;
@@ -47,7 +47,7 @@ body{
     padding: 1rem;
     
 }
-
+/* 
 .bg_graphic{
     height: 40vh;
     width: 100%;
@@ -59,4 +59,4 @@ body{
     background-repeat: no-repeat;
     background-size: cover;
 
-}
+} */
