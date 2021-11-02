@@ -4,39 +4,53 @@ body{
     justify-content: center;
     align-items: center;
     height: 95vh;
-
     background-color: #070b0f;
+    background-color: cornsilk;
     color: #e5e5e5;
     /* font-family: 'Times New Roman', Times, serif; */
     font-family: 'Fira Mono', monospace;
-    /* background-image: url("../media/Curve\ Line.svg");
+    /* background-image: url("../media/Animated\ Shape_new.svg");
     background-position: right;
     background-repeat: no-repeat;
     background-size: contain; */
 
     
 
+    
+
 }
 
 .main_section{
-    /* background-color: teal; */
+    background-color: teal;
 }
 .clock{
     display: flex;
     justify-content: center;
     align-items: center;
     padding: 1rem;
-    /* background-color: yellow; */
+    background-color: yellow;
     font-size: 3.2rem;
 
  
 }
+
+/* .greeting{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.timezone{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: .8rem;
+} */
 .slider{
     display: flex;
     justify-content: center;
     align-items: center;
     padding: 1rem;
-    /* background-color: aqua; */
+    background-color: aqua;
 }
 
 .text{
@@ -47,6 +61,31 @@ body{
     padding: 1rem;
     
 }
+/* .bg_img{
+    height: 30vh;
+    width: 100%;
+
+    /* background-color: orangered; */
+
+    /* background-image: url("../media/image-removebg.png");
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat; */
+
+/* }  */
+/* 
+.bg_graphic{
+    height: 40vh;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    background-color: orange;
+    background-image: url("../media/Curve\ Line.svg");
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+} */
 /* 
 .bg_graphic{
     height: 40vh;
@@ -54,9 +93,21 @@ body{
     position: fixed;
     bottom: 0;
     /* background-color: orange; */
-    background-image: url("../media/Curve\ Line.svg");
+    /* background-image: url("../media/Animated\ Shape.svg");
     background-position: right;
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: cover; */
 
-} */
+/* } */ 
+
+
+@media only screen and (max-width: 600px) {
+    body{
+        background-color: rgb(238, 229, 229);
+        overflow: hidden;
+    }
+    .main_section{
+        width: 90vw;
+    }
+
+  }
