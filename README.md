@@ -5,6 +5,10 @@ TODO
 2. finalize the features 
 3. create final HTMl structure 
 4. make code responsive 
+7. color pallete finalize 
+8. switch to sass
+9. organize code 
+
 
 
 Features 
@@ -13,3 +17,6 @@ Features
 3. greeting format + layout 
 4. work on slider 
 5. random quote generator (sarcastic quotes)
+6. on click background color change 
+7. dual mode -> show time in two time zones 
+
