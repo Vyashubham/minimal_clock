@@ -49,7 +49,10 @@
       document.title  =  h + ":" + m;
       setTimeout(startTime, 1000);
 
-      
+      // Code printing hours remaning in the day
+      let hours_remain = 24 - today.getHours();
+      document.getElementById('hrs_remain').innerHTML = Math.abs(hours_remain) + " hours remaning in the day.";
+    
       
     }
     
