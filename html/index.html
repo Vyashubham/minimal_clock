@@ -53,7 +53,7 @@
 
       // Code printing hours remaning in the day
       let hours_remain = 24 - today.getHours();
-      document.getElementById('hrs_remain').innerHTML = Math.abs(hours_remain) + " hours remaning in the day.";
+      document.getElementById('hrs_remain').innerHTML = Math.abs(hours_remain) + " hours remaning.";
     
       
     }
@@ -65,7 +65,7 @@
     
 
     function quotes(){
-        let quote_zero = "Get to work";
+        let quote_zero = "Get to work!";
         let quote_one = "Think, its not illegal yet.";
         let quote_two = "Sleep less";
         let quote_three = "breathe.";
@@ -74,8 +74,12 @@
         let quote_six = "sorry for the mean, awful Accurate things I said.";
         let quote_seven = "Normal's underrated.";
         let random_num =  Math.floor(Math.random() * 8);
+        // console.log(random_num);
 
-        if( random_num == 1){
+        if ( random_num == 0){
+            document.getElementById('text').innerHTML =  quote_zero;
+        }
+        else if( random_num == 1){
             document.getElementById('text').innerHTML =  quote_one;
         }
         else if(random_num == 2){
