@@ -5,7 +5,7 @@ body{
     align-items: center;
     height: 95vh;
     background-color: #070b0f;
-    /* background-color: cornsilk; */
+    background-color: cornsilk;
     color: #e5e5e5;
     /* font-family: 'Times New Roman', Times, serif; */
     font-family: 'Fira Mono', monospace;
@@ -21,14 +21,18 @@ body{
 }
 
 .main_section{
-    /* background-color: teal; */
+    background-color: teal;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
 .clock{
     display: flex;
     justify-content: center;
     align-items: center;
     padding: 1rem;
-    /* background-color: yellow; */
+    background-color: yellow;
     font-size: 3.2rem;
 
  
@@ -50,18 +54,19 @@ body{
     justify-content: center;
     align-items: center;
     padding: 1rem;
-    /* background-color: aqua; */
+    background-color: aqua;
 }
 
 .text{
     height: 5vh;
+    width: 90%;
     display: flex;
     justify-content: center;
     align-items: center;
     font-size: 1rem;
     padding: 1rem;
 
-    /* background-color: blueviolet; */
+    background-color: blueviolet;
     
 }
 
@@ -70,25 +75,27 @@ body{
     justify-content: center;
     align-items: center;
     height: 100%;
-    width: 100%;
+    
     
     padding: 0;
     margin: 0;
-    /* background-color: green; */
+    background-color: green;
 }
 
 .hours_remain{
     height: 10vh;
-
+    width: 50%;
     display: flex;
     justify-content: center;
     align-items: center;
 
-    /* background-color: rgb(8, 8, 65); */
+    background-color: rgb(8, 8, 65);
 
     
 }
 #hrs_remain{
+    height: auto;
+    width: 35vh;
     padding: 1rem 2rem;
     border: 1px solid white;
     outline: 1px solid white;
