@@ -26,6 +26,9 @@
               </svg>
         </div>
         <div class="text">“No, you don’t have to repeat yourself. I was ignoring you the first time.”</div>   
+        <div class="hours_remain">
+            <div id="hrs_remain"></div>
+        </div>
         <!-- <div class="bg_img">
             <img src="../media/image-removebg.png" alt="">
         </div> -->
@@ -45,12 +48,17 @@
       document.getElementById('clock').innerHTML =  h + ":" + m ;
       document.title  =  h + ":" + m;
       setTimeout(startTime, 1000);
+
+      
+      
     }
     
     function checkTime(i) {
       if (i < 10) {i = "0" + i};  // add zero in front of numbers < 10
       return i;
     }
+    
+    
     </script>
     
     </script>
