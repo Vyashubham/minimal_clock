@@ -4,6 +4,7 @@ body{
     justify-content: center;
     align-items: center;
     height: 95vh;
+    width: 99.5%;
     background-color: #070b0f;
     /* background-color: cornsilk; */
     color: #e5e5e5;
@@ -13,9 +14,6 @@ body{
     background-position: right;
     background-repeat: no-repeat;
     background-size: contain; */
-
-    
-
     
 
 }
@@ -38,17 +36,6 @@ body{
  
 }
 
-/* .greeting{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-.timezone{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: .8rem;
-} */
 .slider{
     display: flex;
     justify-content: center;
@@ -88,6 +75,7 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
+    text-align: center;
 
     /* background-color: rgb(8, 8, 65); */
 
@@ -104,6 +92,109 @@ body{
     /* outline-offset: 20rem ; */
     
 }
+
+@media only screen and (max-width: 600px) {
+    body{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        /* background-color: rgb(141, 130, 130); */
+        overflow: hidden;
+    }
+
+    .main_section{
+        /* background-color: indianred; */
+
+    }
+
+    .clock{
+        /* background-color: blue; */
+    }
+
+    .slider{
+        /* background-color: yellowgreen; */
+
+        display: none;
+    }
+
+    .text{
+        /* background-color: rgb(163, 85, 100); */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+
+    .hours_remain{
+        /* background-color: rgb(81, 95, 67); */
+        width: auto;
+        max-width: 80vw;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* .greeting{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.timezone{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: .8rem;
+} */
+
+
+
+
+
 /* .bg_img{
     height: 30vh;
     width: 100%;
@@ -142,15 +233,3 @@ body{
     background-size: cover; */
 
 /* } */ 
-
-
-@media only screen and (max-width: 600px) {
-    body{
-        background-color: rgb(238, 229, 229);
-        overflow: hidden;
-    }
-    .main_section{
-        width: 90vw;
-    }
-
-  }
