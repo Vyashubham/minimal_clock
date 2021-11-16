@@ -1,133 +1,199 @@
+/* CSS styling for minimalistic clock 
+ */
+
+/* converting entire body into flexbox container */
 body{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+
+    /* background-color: cornsilk; */
+
+    /* Height & Width */
     height: 95vh;
     width: 99.5%;
+
+    /* positioning */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   
+    /* styling  */
     background-color: #070b0f;
-    /* background-color: cornsilk; */
     color: #e5e5e5;
-    /* font-family: 'Times New Roman', Times, serif; */
     font-family: 'Fira Mono', monospace;
-    /* background-image: url("../media/Animated\ Shape_new.svg");
-    background-position: right;
-    background-repeat: no-repeat;
-    background-size: contain; */
-    
 
 }
 
+/* main container containing everything  */
 .main_section{
+
     /* background-color: teal; */
+
+    /* positioning */
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
+
 }
+
+/* clock container */
 .clock{
+
+    /* background-color: yellow; */
+
+    /* positioning */
     display: flex;
     justify-content: center;
     align-items: center;
+
     padding: 1rem;
-    /* background-color: yellow; */
+
+    /* styling */
     font-size: 3.2rem;
 
  
 }
 
+/* slider container  */
 .slider{
+
+    /* background-color: aqua; */
+
+    /* positioning */
     display: flex;
     justify-content: center;
     align-items: center;
+
     padding: 1rem;
-    /* background-color: aqua; */
+    
 }
 
+/* quotes section container */
 .text{
-    height: 5vh;
-    width: 90%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 1rem;
-    padding: 1rem;
 
     /* background-color: blueviolet; */
-    
-}
 
-#text{
+    /* Height & width */
+    height: 5vh;
+    width: 90%;
+
+    /* positioning */
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100%;
     
+    /* styling */
+    font-size: 1rem;
+    padding: 1rem; 
     
-    padding: 0;
-    margin: 0;
-    /* background-color: green; */
 }
 
+/* quotes inner container  */
+#text{
+
+    /* background-color: green; */
+
+    /* Height & Width */
+    height: 100%;
+
+    /* positioning */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    padding: 0;
+    margin: 0;
+    
+}
+
+/* hours remain outer container  */
 .hours_remain{
+
+    /* background-color: rgb(8, 8, 65); */
+
+    /* Height & Width */
     height: 10vh;
     width: 50%;
+
+    /* positioning */
     display: flex;
     justify-content: center;
     align-items: center;
     text-align: center;
-
-    /* background-color: rgb(8, 8, 65); */
-
     
 }
+
+/* hours remain inner container */
 #hrs_remain{
+
+    /* Height & Width */
     height: auto;
     width: 35vh;
+    
+    /* Styling */
     padding: 1rem 2rem;
     border: 1px solid white;
     outline: 1px solid white;
     outline-offset: 5px;
+
     /* border-radius: 3rem; */
     /* outline-offset: 20rem ; */
     
 }
 
+/* responsive UI */
 @media only screen and (max-width: 600px) {
     body{
+
+        /* background-color: rgb(141, 130, 130); */
+        
+        /* positioning */
         display: flex;
         justify-content: center;
         align-items: center;
-        /* background-color: rgb(141, 130, 130); */
+        
+        /* Styling */
         overflow: hidden;
     }
 
     .main_section{
+
         /* background-color: indianred; */
 
     }
 
     .clock{
+
         /* background-color: blue; */
     }
 
     .slider{
+
         /* background-color: yellowgreen; */
 
+        /* Styling */
         display: none;
     }
 
     .text{
+
         /* background-color: rgb(163, 85, 100); */
+
+        /* Positning */
         display: flex;
         justify-content: center;
+        
+        /* Styling */
         align-items: center;
         text-align: center;
     }
 
 
     .hours_remain{
+        
         /* background-color: rgb(81, 95, 67); */
+        
+        /* Height & Width */
         width: auto;
         max-width: 80vw;
     }
