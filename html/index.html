@@ -1,5 +1,5 @@
 <!-- 
-    Minimal Clock 
+                                                   Minimal Clock 
     minilistic clock designed to provide essential information to the user, with feature to keep the user on track with his daily schedule.
 
     ------------------------------ The project is still under construction. ------------------------------
@@ -24,9 +24,10 @@
     <!-- Importing native css styling -->
 
     <link rel="stylesheet" href="../css/index.css" />
+    <script src="../js/index.js"></script>
   </head>
   <!-- Loading javascript functions used to show clock and quotes -->
-  <body onLoad="startTime(), quotes()">
+  <body onLoad="startTime()" onclick="myFunction(), quotes()" >
     <div class="main_section">
       <!-- <div class="greeting">
             <h2>Morning, shubham.</h2>
@@ -46,7 +47,7 @@
         </svg>
       </div>
       <div class="text">
-        <div id="text"></div>
+        <div id="text">Work.</div>
       </div>
       <div class="hours_remain">
         <div id="hrs_remain"></div>
@@ -58,63 +59,5 @@
     <!-- <div class="bg_graphic"></div> -->
   </body>
 
-  <!-- Javascript scripts to invoke clock and to show quotes. -->
-  <script>
-    // Function to invoke clock
-    function startTime() {
-      const today = new Date();
-      let h = today.getHours();
-      let m = today.getMinutes();
-      let s = today.getSeconds();
-      m = checkTime(m);
-      s = checkTime(s);
-      document.getElementById("clock").innerHTML = h + ":" + m;
-      document.title = h + ":" + m;
-      setTimeout(startTime, 1000);
-
-      // Code printing hours remaning in the day
-      let hours_remain = 24 - today.getHours();
-      document.getElementById("hrs_remain").innerHTML =
-        Math.abs(hours_remain) + " hours remaning.";
-    }
-
-    function checkTime(i) {
-      if (i < 10) {
-        i = "0" + i;
-      } // add zero in front of numbers < 10
-      return i;
-    }
-
-    // Function to show quotes
-    function quotes() {
-      let quote_zero = "Get to work!";
-      let quote_one = "Think, its not illegal yet.";
-      let quote_two = "Sleep less";
-      let quote_three = "breathe.";
-      let quote_four = "be calm.";
-      let quote_five = "hurray!";
-      let quote_six = "sorry for the mean, awful Accurate things I said.";
-      let quote_seven = "Normal's underrated.";
-      let random_num = Math.floor(Math.random() * 8);
-      // console.log(random_num);
-
-      if (random_num == 0) {
-        document.getElementById("text").innerHTML = quote_zero;
-      } else if (random_num == 1) {
-        document.getElementById("text").innerHTML = quote_one;
-      } else if (random_num == 2) {
-        document.getElementById("text").innerHTML = quote_two;
-      } else if (random_num == 3) {
-        document.getElementById("text").innerHTML = quote_three;
-      } else if (random_num == 4) {
-        document.getElementById("text").innerHTML = quote_four;
-      } else if (random_num == 5) {
-        document.getElementById("text").innerHTML = quote_five;
-      } else if (random_num == 6) {
-        document.getElementById("text").innerHTML = quote_six;
-      } else if (random_num == 7) {
-        document.getElementById("text").innerHTML = quote_seven;
-      }
-    }
-  </script>
-</html>
+  
+  </html>
