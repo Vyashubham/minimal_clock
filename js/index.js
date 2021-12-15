@@ -1,4 +1,11 @@
 // Javascript scripts to invoke clock and to show quotes.
+function myFunction() {
+  var random_value = Math.floor(Math.random() * 5);
+
+  const colors = ["#4D727E", "#1C4761", "#728CA7", "#26616E", "#070b0f"];
+  // console.log(random_value);
+  document.body.style.backgroundColor = colors[random_value];
+}
 
 // Function to invoke clock
 function startTime() {
