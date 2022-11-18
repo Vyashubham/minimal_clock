@@ -63,3 +63,17 @@ function quotes() {
     document.getElementById("text").innerHTML = quote_seven;
   }
 }
+
+// const d = new Date();
+// console.log(d);
+// document.getElementsByClassName("date").innerHTML = d;
+
+// const date = new Date();
+// console.log(date.toDateString());
+// document.getElementById("date").innerHTML = date.toDateString();
+
+function date() {
+  const date = new Date();
+  console.log(date.toDateString());
+  document.getElementById("date").innerHTML = date.toDateString();
+}
