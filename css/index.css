@@ -111,11 +111,14 @@ body{
 
     /* background-color: rgb(8, 8, 65); */
 
+
     /* Height & Width */
     height: 10vh;
     width: 50%;
 
     /* positioning */
+    position: absolute;
+    margin-top: 75vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -132,8 +135,8 @@ body{
     
     /* Styling */
     padding: 1rem 2rem;
-    border: 1px solid white;
-    outline: 1px solid white;
+    /* border: 1px solid white;
+    outline: 1px solid white; */
     outline-offset: 5px;
 
     /* border-radius: 3rem; */
