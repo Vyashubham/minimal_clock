@@ -1,5 +1,9 @@
 # minimal_clock
 
+
+BUGS
+1. make hours to hour if its less than 2 
+
 TODO 
 1. Document the code 
 2. finalize the features 
