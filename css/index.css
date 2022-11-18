@@ -20,6 +20,9 @@ body{
     background-color: #070b0f;
     color: #e5e5e5;
     font-family: 'Fira Mono', monospace;
+    /* cursor:  grab; */
+
+    overflow: hidden;
 
 }
 
@@ -106,6 +109,78 @@ body{
     
 }
 
+footer{
+    /* background-color: yellow; */
+
+    /* Height & Width */
+    height: 10vh;
+    width: 93%;
+
+    /* positioning */
+    position: absolute;
+    bottom: 0;
+    padding: 1vh;
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+    /* flex-direction: ; */
+
+}
+
+
+.listen_section_container{
+    /* background-color: pink; */
+
+    /* Height & Width */
+    height: 90%;
+    width: 30%;
+
+      /* positioning */
+      display: flex;
+      /* justify-content: center; */
+      align-items: center;
+  
+    
+
+}
+
+.listen_section_container > a{
+    /* background-color: aliceblue; */
+    padding: .3vh;
+    margin-top: .85vh;
+    color: inherit;
+    text-decoration: none !important;
+    border-bottom: .25vh solid white;
+}
+
+/* .listen_logo{ */
+    /* background-color: indianred; */
+
+    /* height: 90%;
+    width: 20%;
+} */
+
+/* .listen_logo > img{ */
+    /* background-color: beige; */
+/* 
+    height: 100%;
+    width: auto;
+} */
+
+.date_container{
+    /* background-color: orange; */
+
+    /* Height & Width */
+    height: 90%;
+    width: 30%;
+
+      /* positioning */
+      display: flex;
+      justify-content: flex-end;
+      align-items: center;
+  
+
+}
 /* hours remain outer container  */
 .hours_remain{
 
@@ -113,12 +188,12 @@ body{
 
 
     /* Height & Width */
-    height: 10vh;
-    width: 50%;
+    height: 90%;
+    width: 30%;
 
     /* positioning */
-    position: absolute;
-    margin-top: 75vh;
+    /* position: absolute; */
+    /* margin-top: 75vh; */
     display: flex;
     justify-content: center;
     align-items: center;
