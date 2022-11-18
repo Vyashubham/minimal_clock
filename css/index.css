@@ -1,6 +1,13 @@
 /* CSS styling for minimalistic clock 
  */
 
+ /* cool trick */
+ /* * {
+    outline: 1px solid #f00 !important;
+  }
+   */
+
+
 /* converting entire body into flexbox container */
 body{
 
@@ -8,7 +15,7 @@ body{
 
     /* Height & Width */
     height: 95vh;
-    width: 99.5%;
+    /* width: 99.5%; */
 
     /* positioning */
     display: flex;
@@ -22,7 +29,8 @@ body{
     font-family: 'Fira Mono', monospace;
     /* cursor:  grab; */
 
-    overflow: hidden;
+    overflow-x: hidden !important;
+    /* max-width: 90vh !important; */
 
 }
 
@@ -30,6 +38,7 @@ body{
 .main_section{
 
     /* background-color: teal; */
+    
 
     /* positioning */
     display: flex;
@@ -111,6 +120,7 @@ body{
 
 footer{
     /* background-color: yellow; */
+    
 
     /* Height & Width */
     height: 10vh;
@@ -119,7 +129,7 @@ footer{
     /* positioning */
     position: absolute;
     bottom: 0;
-    padding: 1vh;
+    padding: 0 1vh;
     display: flex;
     justify-content: space-between; 
     align-items: center;
@@ -221,21 +231,27 @@ footer{
 
 /* responsive UI */
 @media only screen and (max-width: 600px) {
+    html, body {
+        max-width: 100% !important;
+        overflow-x: hidden;
+    }
     body{
 
         /* background-color: rgb(141, 130, 130); */
-        
+        max-width: 100% !important;
         /* positioning */
         display: flex;
         justify-content: center;
         align-items: center;
         
         /* Styling */
-        overflow: hidden;
+        
     }
 
     .main_section{
-
+        /* max-width: 10rem !important; */
+        padding: 0;
+        margin: 0;
         /* background-color: indianred; */
 
     }
@@ -275,6 +291,29 @@ footer{
         width: auto;
         max-width: 80vw;
     }
+
+    footer{
+        height: auto;
+        /* background-color: indianred; */
+        flex-direction: column;
+        padding-bottom: 2vh;
+        
+        
+    }
+    .listen_section_container{
+        width: 100%;
+        justify-content: center;
+    }
+    .hours_remain{
+        width: 100%;
+        justify-content: center;
+    }
+    .date_container{
+        width: 100%;
+        justify-content: center;
+        
+    }
+
 }
 
 
