@@ -12,6 +12,7 @@ TODO
 7. color pallete finalize 
 8. switch to sass
 9. organize code 
+10. Link brain.fm or spotify
 
 
 
